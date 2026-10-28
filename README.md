@@ -17,7 +17,7 @@
 | :--- | :--- |
 | **Project Title** | **Multimodal Attendance & Engagement Agent** |
 | **Category / Domain** | **Education** (Individual Project) |
-| **GitHub Repository Link** | [https://github.com/YOUR_GITHUB_USERNAME/AttendAI](https://github.com/YOUR_GITHUB_USERNAME/AttendAI) |
+| **GitHub Repository Link** | [https://github.com/anjaliojha1005/AttendAI](https://github.com/YOUR_GITHUB_USERNAME/AttendAI) |
 | **Live Interactive Website Demo**| [https://YOUR_GITHUB_USERNAME.github.io/AttendAI/](https://YOUR_GITHUB_USERNAME.github.io/AttendAI/) |
 | **Total Epics** | **9 Epics** (100% Implemented) |
 | **Total Tasks & Stories** | **17 Tasks** (0 Subtasks remaining) |
