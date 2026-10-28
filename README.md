@@ -1,7 +1,7 @@
 # Multimodal Attendance & Engagement Agent 🎓🤖
 > **An AI-Powered, Privacy-Preserving Classroom Intelligence System**
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-anjali--yadav10%2FAttendAI-18181b?style=for-the-badge&logo=github)](https://github.com/YOUR_GITHUB_USERNAME/AttendAI)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-anjali--ojha10%2FAttendAI-18181b?style=for-the-badge&logo=github)](https://github.com/YOUR_GITHUB_USERNAME/AttendAI)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Website_Online-f59e0b?style=for-the-badge&logo=googlechrome)](https://YOUR_GITHUB_USERNAME.github.io/AttendAI/)
 [![CI Pipeline](https://img.shields.io/badge/CI-Passing-18181b?style=for-the-badge&logo=githubactions)](https://github.com/YOUR_GITHUB_USERNAME/AttendAI/actions)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776ab?style=for-the-badge&logo=python)](https://python.org)
