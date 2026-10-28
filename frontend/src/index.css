@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-onyx-dark: #09090b;
+    --color-onyx: #18181b;
+    --color-onyx-light: #27272a;
+    --color-amber: #f59e0b;
+    --color-amber-dark: #d97706;
+    --color-bg: #fafaf9;
+    --color-card: #ffffff;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #fafaf9;
+    color: #18181b;
+    min-height: 100vh;
+  }
+
+  body ::selection {
+    background-color: #18181b;
+    color: #fef3c7;
+  }
+
+  *:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #f59e0b;
+  }
+}
+
+/* ── Modern Onyx & Warm Gold Gradient Themes (No Red, No Blue, No Green) ── */
+.onyx-hero-gradient,
+.wine-hero-gradient {
+  background: linear-gradient(135deg, #09090b 0%, #18181b 55%, #27272a 100%) !important;
+  color: #ffffff !important;
+}
+
+.onyx-smart-card,
+.wine-smart-card {
+  background: linear-gradient(145deg, #09090b 0%, #18181b 50%, #27272a 100%) !important;
+  color: #ffffff !important;
+  box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.4);
+}
+
+.onyx-badge {
+  background-color: #f4f4f5;
+  color: #18181b;
+  border: 1px solid #e4e4e7;
+}
+
+.amber-badge {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+/* ── Interactive Card & Button Utilities ─────────────────── */
+.card-hover {
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px -6px rgba(0, 0, 0, 0.1), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+}
+
+.card-pill-stat {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-pill-stat:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.03);
+}
+
+.btn-onyx,
+.btn-wine {
+  background-color: #18181b !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.25);
+}
+.btn-onyx:hover,
+.btn-wine:hover {
+  background-color: #27272a !important;
+  transform: scale(1.02);
+}
+.btn-onyx:active,
+.btn-wine:active {
+  transform: scale(0.97);
+}
+
+.btn-amber {
+  background-color: #f59e0b !important;
+  color: #ffffff !important;
+  font-weight: 800;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 4px 14px -2px rgba(245, 158, 11, 0.35);
+}
+.btn-amber:hover {
+  background-color: #d97706 !important;
+  transform: scale(1.02);
+}
+.btn-amber:active {
+  transform: scale(0.97);
+}
+
+.btn-soft {
+  background-color: #ffffff;
+  color: #18181b;
+  border: 1px solid #e4e4e7;
+  font-weight: 600;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+.btn-soft:hover {
+  background-color: #f4f4f5;
+  border-color: #d4d4d8;
+}
+
+/* Biometric scan laser line */
+.scan-laser {
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0) 0%, rgba(245, 158, 11, 0.85) 50%, rgba(245, 158, 11, 0) 100%);
+  animation: scanLine 2.2s ease-in-out infinite;
+}
+
+/* Circular progress stroke animation */
+.circle-progress-ring {
+  transition: stroke-dashoffset 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
